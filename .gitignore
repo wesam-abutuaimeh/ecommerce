@@ -31,3 +31,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# My Notes On Project => [Enhancement Points]
+/Notes.md
