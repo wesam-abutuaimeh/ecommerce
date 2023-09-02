@@ -1,0 +1,42 @@
+export const DEALS_AND_OFFERS = [
+  {
+    id: "1",
+    img: "/smart_watches.png",
+    title: "Smart watches",
+    discount: "-25%",
+    width: "101",
+    height: "121",
+  },
+  {
+    id: "2",
+    img: "/laptops.png",
+    title: "Laptops",
+    discount: "-15%",
+    width: "126",
+    height: "99",
+  },
+  {
+    id: "3",
+    img: "/GoPro_cameras.png",
+    title: "GoPro cameras",
+    discount: "-40%",
+    width: "129",
+    height: "91",
+  },
+  {
+    id: "4",
+    img: "/headphones.png",
+    title: "Headphones",
+    discount: "-25%",
+    width: "113",
+    height: "128",
+  },
+  {
+    id: "5",
+    img: "/canon_camreras.png",
+    title: "Canon camreras",
+    discount: "-25%",
+    width: "125",
+    height: "125",
+  },
+];
