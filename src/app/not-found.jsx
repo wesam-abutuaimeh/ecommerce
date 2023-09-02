@@ -1,10 +1,4 @@
-import Link from 'next/link'
-
+import ErrorPage from '@/components/molecules/ErrorPage'
 export default function NotFound() {
-    return (
-        <div>
-            <h2>Whoops! Page Not Found</h2>
-            <Link href="/">Return Home</Link>
-        </div>
-    )
+    return <ErrorPage />
 }
