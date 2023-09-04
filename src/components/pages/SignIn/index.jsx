@@ -52,3 +52,68 @@ const SignIn = () => {
 };
 
 export default SignIn;
+/*// components/SignInForm.js
+import { useState } from 'react'
+import { signIn } from 'next-auth/react'
+
+function SignInForm() {
+  const [formData, setFormData] = useState({
+    email: '',
+    password: '',
+  })
+
+  const handleChange = (e) => {
+    const { name, value } = e.target
+    setFormData({
+      ...formData,
+      [name]: value,
+    })
+  }
+
+  const handleSignIn = async (e) => {
+    e.preventDefault()
+    
+    const { email, password } = formData
+
+    // Call the signIn function from NextAuth.js with custom credentials
+    const result = await signIn('credentials', {
+      redirect: false, // Set to false to handle redirection manually
+      email,
+      password,
+    })
+
+    if (!result.error) {
+      // Authentication succeeded, you can redirect the user here
+    } else {
+      // Authentication failed, handle error
+      console.error(result.error)
+    }
+  }
+
+  return (
+    <form onSubmit={handleSignIn}>
+      <div>
+        <label>Email</label>
+        <input
+          type="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+        />
+      </div>
+      <div>
+        <label>Password</label>
+        <input
+          type="password"
+          name="password"
+          value={formData.password}
+          onChange={handleChange}
+        />
+      </div>
+      <button type="submit">Sign In</button>
+    </form>
+  )
+}
+
+export default SignInForm
+*/
