@@ -28,7 +28,7 @@ export const Flex = styled(StyledFlex)`
       font-weight: 500;
       line-height: 22px;
       margin-bottom: 5px;
-      margin-top: 30px;
+      margin-top: 10px;
     }
 
     span {
