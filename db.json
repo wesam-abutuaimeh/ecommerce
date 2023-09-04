@@ -1,0 +1,271 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imgSrc": "/iPhone.png",
+      "title": "Canon Camera EOS 2000, Black 10x zoom",
+      "priceAfterDiscount": "$998.00",
+      "priceBeforeDiscount": "$1128.00",
+      "ratingInStar": "5",
+      "ratingInNumber": "7.5",
+      "ordersCount": "154",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 2,
+      "imgSrc": "/canon_camreras.png",
+      "title": "Nikon Camera XYZ 300, Silver 12x zoom",
+      "priceAfterDiscount": "$799.99",
+      "priceBeforeDiscount": "$899.99",
+      "ratingInStar": "4.5",
+      "ratingInNumber": "8.0",
+      "ordersCount": "89",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 3,
+      "imgSrc": "/tablet.png",
+      "title": "Sony Camera Alpha 500, Red 8x zoom",
+      "priceAfterDiscount": "$1199.00",
+      "priceBeforeDiscount": "$1299.00",
+      "ratingInStar": "4.8",
+      "ratingInNumber": "7.2",
+      "ordersCount": "231",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 4,
+      "imgSrc": "/saved (1).png",
+      "title": "Panasonic Camera Lumix Z100, Blue 15x zoom",
+      "priceAfterDiscount": "$699.95",
+      "priceBeforeDiscount": "$799.95",
+      "ratingInStar": "4.2",
+      "ratingInNumber": "6.9",
+      "ordersCount": "45",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 5,
+      "imgSrc": "/saved (4).png",
+      "title": "Olympus Camera OM-D E-M10, Silver 9x zoom",
+      "priceAfterDiscount": "$190.00",
+      "priceBeforeDiscount": "$349.00",
+      "ratingInStar": "2.6",
+      "ratingInNumber": "2.6",
+      "ordersCount": "35",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "mainImage": "/clothproduct.png",
+      "images": [
+        "/cloth1.png",
+        "/cloth2.png",
+        "/cloth3.png",
+        "/cloth1.png",
+        "/cloth1.png",
+        "/cloth1.png"
+      ],
+      "title": "Men's Long Sleeve T-shirt Cotton Base Layer Slim Muscle",
+      "reviewsCount": 32,
+      "rating": 3.9,
+      "soldCount": 154,
+      "supplier": {
+        "name": "Guanjoi Trading LLC",
+        "nationality": "Germany, Berlin",
+        "isVerified": true,
+        "isWorldwideShipping": true
+      }
+    }
+  ],
+  "relatedProducts": [
+    {
+      "id": 1,
+      "price": "$32.00-$40.00",
+      "title": "Xiaomi Redmi 8 Original ",
+      "src": "/tablet.png"
+    },
+    {
+      "id": 2,
+      "price": "$32.00-$40.00",
+      "title": "Xiaomi Redmi 8 Original ",
+      "src": "/tablet.png"
+    },
+    {
+      "id": 3,
+      "price": "$32.00-$40.00",
+      "title": "Xiaomi Redmi 8 Original ",
+      "src": "/tablet.png"
+    },
+    {
+      "id": 4,
+      "price": "$32.00-$40.00",
+      "title": "Xiaomi Redmi 8 Original ",
+      "src": "/tablet.png"
+    },
+    {
+      "id": 5,
+      "price": "$32.00-$40.00",
+      "title": "Xiaomi Redmi 8 Original ",
+      "src": "/tablet.png"
+    },
+    {
+      "id": 6,
+      "price": "$32.00-$40.00",
+      "title": "Xiaomi Redmi 8 Original ",
+      "src": "/tablet.png"
+    }
+  ],
+  "recommendedItems": [
+    {
+      "id": 1,
+      "price": "$12.50",
+      "title": "T-shirts with multiple colors, for men",
+      "src": "/cloth.png"
+    },
+    {
+      "id": 2,
+      "price": "$34.00",
+      "title": "T-shirts with multiple colors, for men",
+      "src": "/cloth1.png"
+    },
+    {
+      "id": 3,
+      "price": "$99.00",
+      "title": "T-shirts with multiple colors, for men",
+      "src": "/cloth2.png"
+    },
+    {
+      "id": 4,
+      "price": "$9.99",
+      "title": "T-shirts with multiple colors, for men",
+      "src": "/cloth3.png"
+    },
+    {
+      "id": 5,
+      "price": "$8.99",
+      "title": "T-shirts with multiple colors, for men",
+      "src": "/cloth.png"
+    },
+    {
+      "id": 6,
+      "price": "$10.30",
+      "title": "T-shirts with multiple colors, for men",
+      "src": "/cloth.png"
+    },
+    {
+      "id": 7,
+      "price": "$10.30",
+      "title": "T-shirts with multiple colors, for men",
+      "src": "/cloth.png"
+    },
+    {
+      "id": 8,
+      "price": "$80.95",
+      "title": "T-shirts with multiple colors, for men",
+      "src": "/cloth.png"
+    },
+    {
+      "id": 9,
+      "price": "$80.95",
+      "title": "T-shirts with multiple colors, for men",
+      "src": "/cloth.png"
+    },
+    {
+      "id": 10,
+      "price": "$80.95",
+      "title": "T-shirts with multiple colors, for men",
+      "src": "/cloth.png"
+    }
+  ],
+  "offers": [
+    {
+      "id": "1",
+      "img": "/smart_watches.png",
+      "title": "Smart watches",
+      "discount": "-25%"
+    },
+    {
+      "id": "2",
+      "img": "/laptops.png",
+      "title": "laptops",
+      "discount": "-15%"
+    },
+    {
+      "id": "3",
+      "img": "/GoPro_cameras.png",
+      "title": "GoPro_cameras",
+      "discount": "-40%"
+    },
+    {
+      "id": "4",
+      "img": "/headphones.png",
+      "title": "headphones",
+      "discount": "-25%"
+    },
+    {
+      "id": "5",
+      "img": "/canon_camreras.png",
+      "title": "canon_camreras",
+      "discount": "-25%"
+    }
+  ],
+  "HomeAndOutdoor": [
+    {
+      "id": 1,
+      "title": "Soft chairs",
+      "prices": "From USD 19",
+      "src": "/smart_watches.png"
+    },
+    {
+      "id": 2,
+      "title": "Soft chairs",
+      "prices": "From USD 19",
+      "src": "/image90.png"
+    },
+    {
+      "id": 3,
+      "title": "Soft chairs",
+      "prices": "From USD 19",
+      "src": "/rasm.png"
+    },
+    {
+      "id": 4,
+      "title": "Soft chairs",
+      "prices": "From USD 19",
+      "src": "/rasm1.png"
+    },
+    {
+      "id": 5,
+      "title": "Soft chairs",
+      "prices": "From USD 19",
+      "src": "/image88.png"
+    },
+    {
+      "id": 6,
+      "title": "Soft chairs",
+      "prices": "From USD 19",
+      "src": "/rasddm.png"
+    },
+    {
+      "id": 7,
+      "title": "Soft chairs",
+      "prices": "From USD 19",
+      "src": "/rasm.png"
+    },
+    {
+      "id": 8,
+      "title": "Soft chairs",
+      "prices": "From USD 19",
+      "src": "/rasm.png"
+    }
+  ],
+  "subscriptions": [
+    {
+      "email": "wesam@ucst.edu.ps",
+      "id": 1
+    }
+  ]
+}
