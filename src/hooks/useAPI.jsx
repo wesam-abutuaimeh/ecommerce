@@ -52,10 +52,22 @@ const apiReducer = (state, action) => {
 const useAPI = (API_URL) => {
     const [state, dispatch] = useReducer(apiReducer, initialState);
 
-    const get = async (config) => {
+    // const get = async (config) => {
+    //     try {
+    //         dispatch({ type: ACTION_TYPES.FETCH_START });
+    //         const response = await axios.get(API_URL, config);
+    //         dispatch({
+    //             type: ACTION_TYPES.FETCH_SUCCESSFUL,
+    //             payload: response.data.data || response.data,
+    //         });
+    //     } catch (error) {
+    //         dispatch({ type: ACTION_TYPES.FETCH_ERROR, payload: error });
+    //     }
+    // };
+    const get = async () => {
         try {
             dispatch({ type: ACTION_TYPES.FETCH_START });
-            const response = await axios.get(API_URL, config);
+            const response = await axios.get(API_URL);
             dispatch({
                 type: ACTION_TYPES.FETCH_SUCCESSFUL,
                 payload: response.data.data || response.data,
@@ -90,7 +102,6 @@ const useAPI = (API_URL) => {
     const post = async (body) => {
         try {
             dispatch({ type: ACTION_TYPES.FETCH_START });
-
             const response = await axios.post(API_URL, body);
             dispatch({ type: ACTION_TYPES.POST, payload: response.data.data });
         } catch (error) {
