@@ -10,12 +10,17 @@ export const StyledSearchBar = styled.div`
     border-radius: 6px 0 0 6px;
     color: #8b96a5;
     font-weight: 400;
+    padding-left: 10px;
   }
 
   select {
     width: 145px;
     border: 2px solid #0d6efd;
     border-left: 0px;
+    padding-left: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    background: url("/custom_arrow_icon.svg") no-repeat right center;
   }
 
   button {

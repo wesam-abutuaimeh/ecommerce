@@ -1,35 +1,41 @@
-"use client";
 import React, { useState } from 'react';
-import { StyledSearchBar } from './style';
+import { useRouter } from 'next/navigation';
+import { useDebounce } from 'use-debounce';
 import Button from '@/components/atoms/Button';
+import { StyledSearchBar } from './style';
 
-const SearchBar = () => {
-    const [query, setQuery] = useState('');
-    const [category, setCategory] = useState('All');
+const Home = () => {
+    const [keyword, setKeyword] = useState("");
+    const router = useRouter();
 
-    const handleSearch = () => {
-        console.log(query, category);
-    };
+    const debouncedKeyword = useDebounce(keyword, 500);
+
+    const handleSearch = (e) => {
+        setKeyword(e.target.value);
+    }
+
+    const handleSubmit = () => debouncedKeyword ? router.push(`/?title=${debouncedKeyword}`) : router.push("/");
 
     return (
-        <StyledSearchBar>
-            <input
-                className='search__input'
-                type="text"
-                value={query}
-                placeholder="Search..."
-                onChange={(e) => setQuery(e.target.value)}
-            />
-            <select value={category} onChange={(e) => setCategory(e.target.value)}>
-                <option value="All">All category</option>
-                <option value="Books">Books</option>
-                <option value="Movies">Movies</option>
-                <option value="Music">Music</option>
-            </select>
-            <Button onClick={handleSearch}>Search</Button>
-        </StyledSearchBar>
+        <div>
+            <StyledSearchBar>
+                <input
+                    className='search__input'
+                    type="text"
+                    placeholder="Search..."
+                    onChange={handleSearch}
+                    value={keyword}
+                />
+                <select>
+                    <option value="All">All category</option>
+                    <option value="Books">Books</option>
+                    <option value="Movies">Movies</option>
+                    <option value="Music">Music</option>
+                </select>
+                <Button onClick={handleSubmit}>Search</Button>
+            </StyledSearchBar>
+        </div>
     );
 };
 
-export default SearchBar;
-
+export default Home;
