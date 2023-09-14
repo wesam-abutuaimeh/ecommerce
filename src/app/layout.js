@@ -1,12 +1,11 @@
 "use client";
-
+import { useEffect } from "react";
 import { Inter } from "next/font/google";
 import StyledComponentsRegistry from "./lib/registry";
 import ErrorBoundary from "@/components/ErrorBoundry";
 import AuthContext from "@/contexts/AuthContext";
-import { useRouter } from "next/navigation";
 import "./globals.css";
-import { ROLES } from "@/constants/roles";
+import Redirect from "@/components/Redirect";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,11 +16,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   const token = localStorage.getItem("token");
-  const router = useRouter();
-  if (!token) {
-    router.push("/signin");
-    router.push("/register");
-  }
+
+  useEffect(() => {
+    if (!token) {
+      <Redirect>/signin</Redirect>;
+    } else {
+      <Redirect>/</Redirect>;
+    }
+  }, []);
+
   return (
     <html lang="en">
       <head>

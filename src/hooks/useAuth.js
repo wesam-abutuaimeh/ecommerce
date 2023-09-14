@@ -10,12 +10,9 @@ const AUTH_ACTIONS = {
   ALERT: "showAuthAlert",
 };
 
-const getToken = () => {
-  return localStorage.getItem("token") || null;
-};
-const getRole = () => {
-  return localStorage.getItem("role") || ROLES.GUEST;
-};
+const getToken = () => localStorage.getItem("token") || null;
+
+const getRole = () => localStorage.getItem("role") || ROLES.GUEST;
 
 const INIT_STATE = {
   user: null,
