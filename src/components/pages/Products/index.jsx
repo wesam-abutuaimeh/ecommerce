@@ -3,7 +3,6 @@ import React from 'react'
 import FilterSidebar from '@/components/sections/FilterSidebar/Filter';
 import ProductsList from '@/components/sections/ProductsList/Product';
 import Subscription from "@/components/sections/Subscription"
-import Header from '@/components/organisms/Header';
 import { Container } from '@/styles/commen';
 
 const Products = () => {
