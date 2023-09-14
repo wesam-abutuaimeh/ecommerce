@@ -84,6 +84,20 @@ export const StyledSignin = styled.main`
       }
     }
 
+    .signin {
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+      margin-top: 30px;
+    }
+    .go__to__signup {
+      margin-top: 30px;
+    }
+    .err__msg {
+      display: block;
+      text-align: start;
+    }
+
     .remember__container {
       display: flex;
       align-items: center;
@@ -112,5 +126,16 @@ export const StyledSignin = styled.main`
         }
       }
     }
+  }
+  .text__field {
+    width: 327px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #a9acb0;
+    color: #8b96a5;
+    font-family: Inter;
+    border: 1px solid #e3e8ee;
+    border-radius: 6px;
+    outline: none;
   }
 `;

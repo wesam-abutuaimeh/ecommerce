@@ -54,6 +54,94 @@
       "ratingInNumber": "2.6",
       "ordersCount": "35",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 6,
+      "imgSrc": "/clothproduct.png",
+      "title": "Olympus Camera OM-D E-M10, Silver 9x zoom",
+      "priceAfterDiscount": "$190.00",
+      "priceBeforeDiscount": "$349.00",
+      "ratingInStar": "2.6",
+      "ratingInNumber": "2.6",
+      "ordersCount": "35",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 7,
+      "imgSrc": "/cloth3.png",
+      "title": "Olympus Camera OM-D E-M10, Silver 9x zoom",
+      "priceAfterDiscount": "$190.00",
+      "priceBeforeDiscount": "$349.00",
+      "ratingInStar": "2.6",
+      "ratingInNumber": "2.6",
+      "ordersCount": "35",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 8,
+      "imgSrc": "/cloth3.png",
+      "title": "Olympus Camera OM-D E-M10, Silver 9x zoom",
+      "priceAfterDiscount": "$190.00",
+      "priceBeforeDiscount": "$349.00",
+      "ratingInStar": "2.6",
+      "ratingInNumber": "2.6",
+      "ordersCount": "35",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 9,
+      "imgSrc": "/cloth3.png",
+      "title": "Olympus Camera OM-D E-M10, Silver 9x zoom",
+      "priceAfterDiscount": "$190.00",
+      "priceBeforeDiscount": "$349.00",
+      "ratingInStar": "2.6",
+      "ratingInNumber": "2.6",
+      "ordersCount": "35",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 10,
+      "imgSrc": "/cloth3.png",
+      "title": "Olympus Camera OM-D E-M10, Silver 9x zoom",
+      "priceAfterDiscount": "$190.00",
+      "priceBeforeDiscount": "$349.00",
+      "ratingInStar": "2.6",
+      "ratingInNumber": "2.6",
+      "ordersCount": "35",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 11,
+      "imgSrc": "/cloth3.png",
+      "title": "Olympus Camera OM-D E-M10, Silver 9x zoom",
+      "priceAfterDiscount": "$190.00",
+      "priceBeforeDiscount": "$349.00",
+      "ratingInStar": "2.6",
+      "ratingInNumber": "2.6",
+      "ordersCount": "35",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 12,
+      "imgSrc": "/cloth3.png",
+      "title": "Olympus Camera OM-D E-M10, Silver 9x zoom",
+      "priceAfterDiscount": "$190.00",
+      "priceBeforeDiscount": "$349.00",
+      "ratingInStar": "2.6",
+      "ratingInNumber": "2.6",
+      "ordersCount": "35",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 13,
+      "imgSrc": "/cloth3.png",
+      "title": "Olympus Camera OM-D E-M10, Silver 9x zoom",
+      "priceAfterDiscount": "$190.00",
+      "priceBeforeDiscount": "$349.00",
+      "ratingInStar": "2.6",
+      "ratingInNumber": "2.6",
+      "ordersCount": "35",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
     }
   ],
   "product": [

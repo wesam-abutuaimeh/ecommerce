@@ -157,4 +157,16 @@ export const StyledRegister = styled.main`
       margin: 35px 0 30px;
     }
   }
+
+  .text__field {
+    width: 327px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #a9acb0;
+    color: #8b96a5;
+    font-family: Inter;
+    border: 1px solid #e3e8ee;
+    border-radius: 6px;
+    outline: none;
+  }
 `;
